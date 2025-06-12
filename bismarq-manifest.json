@@ -1,20 +1,22 @@
 {
-  "name": "Lord Bismarq HomePage",
+  "name": "Markmix Studios HomePage",
   "short_name": "BismarqHome",
-  "start_url": "./index.html",
+  "start_url": "https://markmix-studios.github.io/home/",
   "display": "standalone",
-  "background_color": "#000000",
-  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
   "icons": [
     {
       "src": "https://cdn.jsdelivr.net/gh/Markmix-Studios/msl-favicons@master/web-app-manifest-192x192.png",
       "sizes": "192x192",
       "type": "image/png"
+      "purpose": "maskable"
     },
     {
       "src": "https://cdn.jsdelivr.net/gh/Markmix-Studios/msl-favicons@master/web-app-manifest-512x512.png",
       "sizes": "512x512",
       "type": "image/png"
+      "purpose": "maskable"
     }
   ]
 }
