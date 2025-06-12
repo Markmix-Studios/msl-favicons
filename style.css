@@ -1,0 +1,87 @@
+/* style.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+  color: #fff;
+  background: url('https://cdn.jsdelivr.net/gh/bismarkagyapong/files@refs/heads/main/nice-desktop-picture.webp') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  backdrop-filter: brightness(0.6);
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 0.2rem;
+}
+
+#clock {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+form {
+  position: relative;
+  width: 90%;
+  max-width: 500px;
+  margin-bottom: 2rem;
+}
+
+#searchInput {
+  width: 100%;
+  padding: 12px 40px 12px 36px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #444;
+  background-color: #1c1c1c;
+  color: #eee;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  outline: none;
+  box-sizing: border-box;
+}
+
+.search-icon,
+.clear-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.3rem;
+  color: #bbb;
+  z-index: 2;
+}
+
+.search-icon {
+  left: 12px;
+}
+
+.clear-btn {
+  right: 12px;
+  cursor: pointer;
+  display: none;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.links a {
+  color: #00ccff;
+  text-decoration: none;
+  font-size: 1rem;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 8px 12px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.links a:hover {
+  background: rgba(0, 0, 0, 0.7);
+}
